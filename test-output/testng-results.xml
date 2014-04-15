@@ -1,17 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="92766" started-at="2014-04-15T09:40:45Z" finished-at="2014-04-15T09:42:18Z">
+  <suite name="Default suite" duration-ms="126921" started-at="2014-04-15T10:27:19Z" finished-at="2014-04-15T10:29:26Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="92766" started-at="2014-04-15T09:40:45Z" finished-at="2014-04-15T09:42:18Z">
+    <test name="Default test" duration-ms="126921" started-at="2014-04-15T10:27:19Z" finished-at="2014-04-15T10:29:26Z">
       <class name="com.AutotestSpotify.TestSpotify">
-        <test-method status="PASS" signature="InValidUser()[pri:0, instance:com.AutotestSpotify.TestSpotify@fe03b3]" name="InValidUser" duration-ms="37846" started-at="2014-04-15T11:40:45Z" finished-at="2014-04-15T11:41:23Z">
+        <test-method status="PASS" signature="InValidUser()[pri:0, instance:com.AutotestSpotify.TestSpotify@1fdff07]" name="InValidUser" duration-ms="33761" started-at="2014-04-15T12:27:19Z" finished-at="2014-04-15T12:27:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- InValidUser -->
-        <test-method status="PASS" signature="SearchTrack()[pri:0, instance:com.AutotestSpotify.TestSpotify@fe03b3]" name="SearchTrack" duration-ms="54877" started-at="2014-04-15T11:41:23Z" finished-at="2014-04-15T11:42:18Z">
+        <test-method status="PASS" signature="LoginValidUser()[pri:0, instance:com.AutotestSpotify.TestSpotify@1fdff07]" name="LoginValidUser" duration-ms="44042" started-at="2014-04-15T12:27:53Z" finished-at="2014-04-15T12:28:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginValidUser -->
+        <test-method status="PASS" signature="SearchTrack()[pri:0, instance:com.AutotestSpotify.TestSpotify@1fdff07]" name="SearchTrack" duration-ms="49075" started-at="2014-04-15T12:28:37Z" finished-at="2014-04-15T12:29:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SearchTrack -->

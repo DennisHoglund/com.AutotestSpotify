@@ -6,6 +6,7 @@
       <class name="com.AutotestSpotify.TestSpotify">
         <methods>
           <include name="SearchTrack"/>
+          <include name="InValidUser"/>
         </methods>
       </class> <!-- com.AutotestSpotify.TestSpotify -->
     </classes>
