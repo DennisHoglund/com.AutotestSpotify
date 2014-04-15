@@ -1,16 +1,12 @@
 package com.AutotestSpotify;
 
-//import com.AutotestSpotify.*;
+
 import org.testng.Assert;
 import org.testng.annotations.Test;
-//import org.sikuli.script.Screen;
-//import org.testng.annotations.Test;
-//Testclass
-//Test of upstream
+
+
 
 public class TestSpotify {
-	
-	
 	
 	@Test
 	 public void LoginValidUser() {
@@ -19,7 +15,7 @@ public class TestSpotify {
 		boolean vs = lp.ValidUser("diggity", "utter2002");
 
 		Assert.assertEquals(vs, true);
-}
+	}
 	
 	@Test
 	 public void InValidUser() {
@@ -33,10 +29,22 @@ public class TestSpotify {
 	@Test
 	 public void SearchTrack() {
 	 
-	LoginPage lp = new LoginPage();
-	MainPage mp = lp.LoginUser("diggity", "utter2002");
-	boolean st = mp.SearchArtist();
+		LoginPage lp = new LoginPage();
+		MainPage mp = lp.LoginUser("diggity", "utter2002");
+		boolean st = mp.SearchSong();
 	
-	Assert.assertEquals(st, true);
+		Assert.assertEquals(st, true);
 	 }
+	
+	@Test
+	 public void SearchArtist() {
+	 
+		LoginPage lp = new LoginPage();
+		MainPage mp = lp.LoginUser("diggity", "utter2002");
+		boolean sa = mp.SearchArtist();
+	
+		Assert.assertEquals(sa, true);
+	 }
+	
+	
 }
