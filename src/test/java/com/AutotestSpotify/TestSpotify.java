@@ -7,15 +7,15 @@ import org.testng.annotations.Test;
 //import org.testng.annotations.Test;
 
 public class TestSpotify {
-//	@Test
-//	 public void TestLoginValidUser() {
-//
-//		LoginPage lp = new LoginPage();
-//		boolean vs = lp.ValidUser("diggity", "utter2002");
-//
-//		Assert.assertEquals(vs, true);
-//}
-//	
+	@Test
+	 public void LoginValidUser() {
+
+		LoginPage lp = new LoginPage();
+		boolean vs = lp.ValidUser("diggity", "utter2002");
+
+		Assert.assertEquals(vs, true);
+}
+	
 	@Test
 	 public void InValidUser() {
 	  
