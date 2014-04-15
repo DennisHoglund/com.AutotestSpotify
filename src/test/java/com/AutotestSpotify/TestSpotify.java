@@ -25,7 +25,7 @@ public class TestSpotify {
 	 public void InValidUser() {
 	  
 		LoginPage lp = new LoginPage();
-		boolean vs = lp.InvalidUser("mupp", "mupp");
+		boolean vs = lp.InvalidUser("testuser", "testpassword");
 	
 		Assert.assertEquals(vs, true);
 	 }
