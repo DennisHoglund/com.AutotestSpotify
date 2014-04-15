@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="92766" started-at="2014-04-15T09:40:45Z" finished-at="2014-04-15T09:42:18Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="92766" started-at="2014-04-15T09:40:45Z" finished-at="2014-04-15T09:42:18Z">
+      <class name="com.AutotestSpotify.TestSpotify">
+        <test-method status="PASS" signature="InValidUser()[pri:0, instance:com.AutotestSpotify.TestSpotify@fe03b3]" name="InValidUser" duration-ms="37846" started-at="2014-04-15T11:40:45Z" finished-at="2014-04-15T11:41:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InValidUser -->
+        <test-method status="PASS" signature="SearchTrack()[pri:0, instance:com.AutotestSpotify.TestSpotify@fe03b3]" name="SearchTrack" duration-ms="54877" started-at="2014-04-15T11:41:23Z" finished-at="2014-04-15T11:42:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchTrack -->
+      </class> <!-- com.AutotestSpotify.TestSpotify -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
