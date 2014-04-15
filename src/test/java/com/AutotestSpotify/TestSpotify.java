@@ -6,6 +6,7 @@ import org.testng.annotations.Test;
 //import org.sikuli.script.Screen;
 //import org.testng.annotations.Test;
 //Testclass
+//Test of upstream
 
 public class TestSpotify {
 	
